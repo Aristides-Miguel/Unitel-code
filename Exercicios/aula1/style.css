@@ -1,0 +1,19 @@
+
+body{
+    background-color: gray;
+}
+main{
+    display: flex;
+     justify-content: space-around; 
+     align-items: center;
+}
+.item{
+    width: 350px;
+    height: 450px;
+    background-image: linear-gradient(to right, rgb(187, 187, 187), gray); 
+    border-radius: 20px;
+    margin-left: -500px;
+}
+.item:hover{
+    transform: translatex(100);
+}
